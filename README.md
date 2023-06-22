@@ -35,6 +35,7 @@
 `anup@ubuntu-22042-08:~$ sudo kubeadm reset`
 
 `anup@ubuntu-22042-08:~$ ls -ltra`
+
 `anup@ubuntu-22042-08:~/.kube$ ls -ltr`
 
 <br>
