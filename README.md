@@ -27,3 +27,14 @@
 **For : [WARNING Swap]: swap is enabled; production deployments should disable swap unless testing the NodeSwap feature gate of the kubelet**
 
 `anup@ubuntu-22042-08:~$ sudo swapoff -a `
+
+<br>
+
+**Troubleshoot**
+
+`anup@ubuntu-22042-08:~$ sudo kubeadm reset`
+
+`anup@ubuntu-22042-08:~$ ls -ltra`
+`anup@ubuntu-22042-08:~/.kube$ ls -ltr`
+
+<br>
